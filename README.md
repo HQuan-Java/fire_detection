@@ -10,7 +10,6 @@
 |:---------:|:-----------------:|
 | ![dashboard](imgs/dashboard.png) | ![telegram](imgs/telegram_alert.png) |
 
-> 💡 Đặt ảnh chụp màn hình vào thư mục `assets/` trong project để hiển thị đúng.
 
 ---
 

@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+
+# Config chứa API key (QUAN TRỌNG!)
+config.py
+
+# Output tự sinh
+output/frames/
+output/logs/
+output/result_video/
+
+# Model (file nặng)
+models/fire_yolo.pt
+
+# Video (file nặng)
+video/
+
+# IDE
+.vscode/
+.idea/

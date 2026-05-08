@@ -8,7 +8,33 @@
 
 | Dashboard | Cảnh báo Telegram |
 |:---------:|:-----------------:|
-| ![dashboard](output/frames/alert_frame_demo.jpg) | Nhận ảnh + phân tích AI qua Telegram |
+| ![dashboard](imgs/dashboard.png) | ![telegram](imgs/telegram_alert.png) |
+
+> 💡 Đặt ảnh chụp màn hình vào thư mục `assets/` trong project để hiển thị đúng.
+
+---
+
+## 📥 Tải xuống Model & Video
+
+> Các file nặng không được lưu trên GitHub. Tải về và đặt đúng thư mục theo hướng dẫn bên dưới.
+
+| File | Mô tả | Thư mục đặt vào |
+|------|-------|----------------|
+| 🤖 `fire_yolo.pt` | Model YOLOv8 đã train | `models/` |
+| 🎬 `fire.mp4` | Video demo chính | `video/` |
+| 🎬 `fire_detec.mp4` | Video test thêm | `video/` |
+
+**[⬇️ Tải tất cả tại đây (Google Drive)](https://drive.google.com/drive/folders/13cvVYkYfe0eZWnbjgmIkMlVE5q21X7zN?usp=sharing)**
+
+Sau khi tải về, đặt file vào đúng vị trí:
+```
+FIRE_DETECTION/
+├── models/
+│   └── fire_yolo.pt      ← đặt vào đây
+└── video/
+    ├── fire.mp4          ← đặt vào đây
+    └── fire_detec.mp4    ← đặt vào đây
+```
 
 ---
 
